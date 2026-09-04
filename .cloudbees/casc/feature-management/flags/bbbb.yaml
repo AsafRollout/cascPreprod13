@@ -4,7 +4,7 @@ kind: flag
 
 flag: bbbb
 flagType: boolean
-description: ""
+description: "abcdefg"
 labels:
 
 availableValues:
