@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: ai-bug-bash-bool-flag
+flagType: boolean
+description: ai-bug-bash-bool-flag desc
+labels:
+  - ai-bugs
+
+availableValues:
+  - "true"
+  - "false"
+
+isPermanent: false

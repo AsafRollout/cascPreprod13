@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: ai-bug-bash-num-flag
+flagType: number
+description: ai-bug-bash-num-flag desc
+labels:
+  - ai-bugs
+
+availableValues:
+  - "1"
+  - "2"
+  - "3"
+
+isPermanent: false

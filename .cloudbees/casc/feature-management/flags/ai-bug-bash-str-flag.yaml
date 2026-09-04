@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: ai-bug-bash-str-flag
+flagType: string
+description: ai-bug-bash-str-flag desc
+labels:
+  - ai-bugs
+
+availableValues:
+  - uno
+  - dos
+
+isPermanent: false
