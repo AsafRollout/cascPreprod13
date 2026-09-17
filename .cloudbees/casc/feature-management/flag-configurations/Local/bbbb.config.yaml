@@ -4,11 +4,10 @@ kind: flag-configuration
 
 flag: bbbb
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: true
 
 conditions: []
